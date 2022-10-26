@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Україна</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <svg class="gerb" height="60">
+          <use href="./img/icon.svg#icon-gerb"></use>
+        </svg>
+      </a>
+
+      <ul>
+        <li><a class="active" href="#">Головна</a></li>
+        <li><a href="#">Волонтерство</a></li>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </header>
+    <section>
+      <div class="content">
+        <h2>Все буде <b>Україна!</b></h2>
+        <p>
+          А головне — віримо: так і буде! Кажемо ці слова, впевнені у стійкості наших людей, у тому, що переможемо, що
+          розквітне прекрасна наша рідна земля й житиме у віках наш народ.
+        </p>
+        <button class="btn" data-modal-open>Слава Украіні</button>
+      </div>
+      <div class="wrapper">
+        <div class="container"></div>
+        <div class="container-two"></div>
+      </div>
+    </section>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close" type="button" data-modal-close>
+          <svg class="icon" width="11" height="11">
+            <use href="./img/icon.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
